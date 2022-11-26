@@ -1,0 +1,95 @@
+#addresses{
+    .total-content{
+        display: flex;
+        .block-wrapper{
+            height: 731px;
+            overflow: hidden;
+            overflow-y: scroll;
+            padding-right: 30px;
+            .block{
+                position: relative;
+                margin-top: 30px;
+                padding-bottom: 30px;
+                width: 320px;
+                min-height: 60px;
+                border-bottom: 1px solid #e0e0e0;
+                z-index: 6;
+                .header{
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                    line-height: 22px;
+                }
+                a{
+                    cursor: pointer;
+                    color: #0a84ff;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: inline-block;
+                    text-align: center;
+                    text-decoration: none;
+                    line-height: 15px;
+                    transition: all .2s ease;
+                }
+                .map-link{
+                    border-bottom: 1px dashed #0a84ff;
+                    margin-left: 21px;
+                }
+                .clearfix{
+                    display: flex;
+                    margin-bottom: 10px;
+                    flex-direction: column;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000;
+                    .pull-left{
+                        margin-bottom: 15px;
+                        img{
+                            width: 15px;
+                            height: 15px;
+                            margin-right: 6px;
+                        }
+                        a{
+                            color: #000;
+                        }
+                    }
+                    &::after{
+                        display: block;
+                        clear: both;
+                        content: "";
+                    }
+                }
+            }
+        }
+        .map{
+            height: 731px;
+            width: 100%;
+            background: #b6b6b6;
+            z-index: 5;
+        }
+    }
+}
+#info{
+    h3{
+        color: #231f20;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+        word-break: break-word;
+    }
+}
+@media only screen and (max-width: 992px){
+#addresses{
+    .total-content{
+        flex-direction: column;
+        justify-content: center;
+        .block-wrapper{
+            height: auto;
+        }
+    }
+}
+}

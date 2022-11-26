@@ -1,0 +1,103 @@
+.socials-wrapper {
+    margin-bottom: 30px;
+    .socials-list{
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .list-item{
+            flex: 1 1 70px;
+            max-width: 75px;
+            height: 75px;
+            border: 1px solid #d6d6d6;
+            margin: 0 5px 5px;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 10px;
+            a{
+                display: flex;
+                padding: 5px;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+            .btn-apple{
+                background: #000;
+            }
+            .btn-google{
+                background: #fff;
+            }
+            .btn-facebook{
+                background: #3b5998;
+            }
+        }
+    }
+}
+.modal-switch-wrapper{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .title{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 300;
+        color: #999;
+        margin:0;
+    }
+    .link{
+        cursor: pointer;
+        color: #0a84ff;
+        margin-left: 15px;
+    }
+}
+.modal-copy-wrapper{
+    text-align: center;
+    p{
+        margin:0;
+        display:inline;
+    }
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    height: auto;
+    padding:0 26px;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.close-btn{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.continue-btn{
+    width: 100%;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #0a84ff;
+    background: #0a84ff;
+    padding: 12px 30px;
+    text-align: center;
+    color: #fff;
+    transition: background-color .2s linear,color .2s linear;
+    margin-bottom:30px;
+}
+.css-hlj6pa-MuiDialogActions-root{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root.heading{
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top:45px;
+}
+.css-qfso29-MuiTypography-root-MuiDialogContentText-root.social-descr{
+    text-align: center;
+}

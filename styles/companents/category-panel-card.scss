@@ -1,0 +1,156 @@
+.category-panel-card{
+        .header{
+            font-size: 24px;
+            line-height: 26px;
+            color: #231f20;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+        .text{
+            color: #231f20;
+            font-size: 15px;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        .link-button{
+            display: block;
+            color: #0a84ff;
+            font-size: 15px;
+            font-weight: 300;
+            text-decoration: none;
+            margin-bottom: 0;
+            transition: color .2s ease;
+            .chevron-icon{
+                font-family: Arial,sans-serif;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 5px;
+                border: 1px solid #0a84ff;
+                color: #0a84ff;
+                border-radius: 50%;
+                width: 13px;
+                height: 13px;
+                font-size: 13px;
+                line-height: 10.5px;
+                margin-top: -2px;
+                text-align: center;
+                transition: border-color .2s ease,color .2s ease;
+            }
+
+        }
+    
+    .feature-1{
+        background-image: url("../../public/images/companenets/category-panels/main-catalog-banner-iphone-13-1.webp");
+        background-repeat: no-repeat;
+        background-color: #f6f6f6;
+        background-position: center 190px;
+        background-size: 225px;
+        height: 696px;
+        padding: 30px;
+    }
+    .feature-2{
+        background-image: url("../../public/images/companenets/category-panels/macbook_air_silver_with_m1_chip_hero_on-white_screen__wwen.webp");
+        background-color: #f6f6f6;
+        background-repeat: no-repeat;
+        margin-bottom: 6px;
+        padding: 30px;
+        background-position: center 155px;
+        background-size: 470px;
+        height: 345px;
+        padding: 30px;
+    }
+    .feature-3{
+        background-image: url("../../public/images/companenets/category-panels/airpods_max_silver_pure_back_pure_side_2-up_print__usen-1.webp");
+        background-color: #f6f6f6;
+        background-position: center 110px;
+        background-repeat: no-repeat;
+        background-size: 250px;
+        height: 345px;
+        padding: 30px;
+    }
+    .feature-4{
+        background-image: url("../../public/images/companenets/category-panels/macmini-pf-spgry-2-1b4.webp");
+        background-color: #f6f6f6;
+        background-position: center 225px;
+        background-size: 280px;
+        background-repeat: no-repeat;
+        height: 345px;
+        padding: 30px;
+    }
+    .feature-5{
+        background-image: url("../../public/images/companenets/category-panels/main-catalog-panel-banner-ipod.webp");
+        padding:30px;
+        height: 345px;
+        background-color: #f6f6f6;
+        background-repeat: no-repeat;
+        margin-bottom: 6px;
+        background-position: center 100%;
+        background-size: 270px;
+    }
+    .feature-6{
+        background-image: url("../../public/images/companenets/category-panels/apple-tv-preview.webp");
+        padding:30px;
+        height: 345px;
+        background-color: #f6f6f6;
+        background-position: center 110px;
+        background-repeat: no-repeat;
+        background-size: 250px;
+    }
+
+}
+.size-1{
+    width:  25%;
+}
+.size-2{
+    width:  100%;
+}
+.size-3{
+    width:  49.5%;
+}
+@media only screen and (max-width: 768px){
+    .category-panel-card{
+        .feature-1{
+            height: 290px;
+            padding: 20px;
+            margin: 0 0 6px;
+            background-position: 90px 120px;
+            background-size: 140px;
+        }
+        .feature-2{
+            height: 290px;
+            padding: 20px;
+            margin: 0 0 6px;
+            background-position: center 140px;
+            background-size: 350px;
+        }
+        .feature-3{
+            height: 290px;
+            padding: 20px;
+            margin: 0 0 6px;
+            background-position: center 85px;
+        }
+        .feature-4{
+            height: 290px;
+            padding: 20px;
+            margin: 0 0 6px;
+            background-position: center 100px;
+            background-size: 250px;
+        }
+        .feature-5{
+            height: 290px;
+            padding: 20px;
+            margin: 0 0 6px;
+            background-position-y: 160px;
+            background-size: 270px;
+        }
+        .feature-6{
+            height: 290px;
+            padding: 20px;
+            margin: 0 0 6px;
+            background-position-y: 60px;
+            background-size: 240px;
+        }
+
+    }
+    
+}

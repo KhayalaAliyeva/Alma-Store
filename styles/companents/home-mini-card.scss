@@ -1,0 +1,124 @@
+.home-mini-card{
+    width: 33.33%;
+    padding: 0 4px;
+    background: #fff;
+    .column-feature{
+        height: 210px;
+        padding-left: 50%;
+        padding-top: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        position: relative;
+        .header{
+            font-size: 20px;
+            color: #231f20;
+            font-weight: 600;
+            margin-bottom: 7px;
+            flex: 1 1 100%;
+        }
+        .text{
+            color: #231f20;
+            font-size: 15px;
+            font-weight: 300;
+            margin-bottom: 15px;
+            flex: 1 1 100%;
+        }
+        .link-button{
+            display: block;
+            color: #0a84ff;
+            font-size: 15px;
+            font-weight: 300;
+            text-decoration: none;
+            margin-bottom: 0;
+            transition: color .2s ease;
+        }
+        .chevron-icon{
+            font-family: Arial,sans-serif;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 5px;
+            border: 1px solid #0a84ff;
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            font-size: 13px;
+            line-height: 10.5px;
+            margin-top: -2px;
+            text-align: center;
+            transition: border-color .2s ease,color .2s ease;
+        }
+    }
+    .feature-1{
+        background: url(../../public/images/companenets/home-mini-card/i-store-block-8-by-image-1.jpg) 0 0 no-repeat,#f6f6f6;
+        background-size: contain;
+        margin-left: -4px;
+    }
+    .feature-2{
+        background: url(../../public/images/companenets/home-mini-card/main-catalog-banner-iphone-case.jpg) 30px no-repeat,#f6f6f6;
+        background-size: 124px;
+    }
+    .feature-3{
+        background: url(../../public/images/companenets/home-mini-card/cc-wallet-block8-az.jpg) 70px no-repeat,#f6f6f6;
+        background-size: 95px;
+    }
+    
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1429.98px){
+    .home-mini-card{
+        width: 50%;
+    }
+ .display-none{
+    display: none;
+ }   
+}
+@media only screen and (max-width:992px){
+   .home-mini-card{
+    height: 175px;
+    .column-feature{
+        height: 175px;
+        padding-top: 0;
+        align-items: center;
+        align-content: center;
+        .header{
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 5px;
+        }
+        .text{
+            font-size: 13px;
+            line-height: 15px;
+            margin-bottom: 5px;
+        }
+    }
+    .feature-2{
+        background-size: 100px;
+    }
+   }
+}
+@media only screen and (max-width:768px){
+    .home-mini-card{
+        width: 100%;
+        padding: 4px 0;
+        .column-feature{
+            height: auto;
+            min-height: 175px;
+            padding-left: 180px;
+            
+        }
+        .feature-1{
+            margin:0;
+        }
+        .feature-2{
+            margin: 0;
+            background-position-x: 30px;
+        }
+        .feature-3{
+            background-size: 80px;
+            margin: 0;
+        }
+    }
+}

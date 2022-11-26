@@ -1,0 +1,90 @@
+.category-list-item{
+    width: 23%;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-top: -1px;
+    margin-left: -1px;
+    transition: border-color .2s ease;
+    a{
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 40px 0 15px;
+        .item-img{
+            height: 100px;
+            margin-bottom: 15px;
+            padding: 0 15px;
+            text-align: center;
+            picture{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .item-descr{
+            padding: 0 15px;
+            text-align: center;
+            height: 25px;
+            overflow: hidden;
+            .category-name{
+                color: #000;
+                font-size: 18px;
+                font-weight: 300;
+                margin-bottom: 0;
+                transition: color .2s ease;
+            }
+        }
+        .sale-icons{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            
+            .icon{
+                display: none;
+                // display: inline-block;
+                vertical-align: top;
+                padding: 0 15px;
+                border-radius: 10px;
+                font-size: 10px;
+                line-height: 21px;
+                font-weight: 400;
+                color: #fff;
+                text-transform: uppercase;
+                margin: 0 2px 5px;
+            }
+            .icon-green{
+                background: #85ca7c;
+            }
+            .icon-red{
+                background-color: #ff6969;
+            }
+            .show{
+                display: inline-block;
+            }
+        }
+    }
+    
+    &:hover{
+        z-index: 2;
+        border-color: #0a84ff;
+        .category-name{
+            color:#0a84ff;
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1429.98px){
+    .category-list-item{
+        width: 33.33%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .category-list-item{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .category-list-item{
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+
+@import "./base/base.scss";
+@import "./base/fonts.scss";
+// companents
+@import "./companents/header.scss";
+@import "./companents/home-mini-card.scss";
+@import "./companents/category-panel-card.scss";
+@import "./companents/navigation.scss";
+@import "./companents/page-header.scss";
+@import "./companents/category-title.scss";
+@import "./companents/category-list.scss";
+@import "./companents/category-list-card.scss";
+@import "./companents/catalog-list-item.scss";
+@import "./companents/filters.scss";
+@import "./companents/shop-about.scss";
+@import "./companents/footer.scss";
+@import "./companents/dialog.scss";
+
+// pages
+@import "./pages/index.scss";
+@import "./pages/macbook-pro.scss";
+@import "./pages/details.scss";
+@import "./pages/cart.scss";
+@import "./pages/information.scss";
+@import "./pages/about.scss";

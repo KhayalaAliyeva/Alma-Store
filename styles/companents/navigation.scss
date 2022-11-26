@@ -1,0 +1,50 @@
+.navigation{
+    background: #f6f6f6;
+    .container{
+        padding: 0 15px;
+        .breadcrumb{
+            padding: 6px 0 8px;
+            background: transparent;
+            border-radius: 0;
+            border-bottom: 1px solid rgba(0,0,0,.07);
+            margin-bottom: 0;
+            display: block;
+            overflow: auto;
+            white-space: nowrap;
+            .breadcrumb-item{
+                display: inline-block;
+                font-size: 12px;
+                color: #898989;
+                text-decoration: none;
+                padding-left: 0.5rem;
+                a{
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #898989;
+                    text-decoration: none;
+                    svg{
+                        path{
+                            fill:#898989;
+                        }
+                    }
+                }
+    
+                &::before{
+                    content: "›";
+                    display: inline-block;
+                    padding-right: 0.5rem;
+                    color: #6c757d;
+                }
+                &:first-child::before{
+                    content: "";
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (max-width:768px){
+    .navigation{
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.information-list{
+    padding-left: 15px;
+    margin-bottom:20px;
+    li{
+        position: relative;
+        margin-bottom: 10px;
+        a{
+            color: #0a84ff;
+            font-size: inherit;
+            font-weight: 300;
+            text-decoration: none;
+        }
+        &::before{
+            content: "";
+            width: 6px;
+            height: 6px;
+            background: #c7c7c7;
+            border-radius: 50%;
+            position: absolute;
+            top: 7px;
+            left: -14px;
+    
+        }
+    }
+}
