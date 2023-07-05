@@ -569,7 +569,7 @@ export default function Home() {
                   aria-label="Subscribe"
                   type="submit"
                   size="small"
-                  
+
                 >
                    Subscribe 
                 </Button>
